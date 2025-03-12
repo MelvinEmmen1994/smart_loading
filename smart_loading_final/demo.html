@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo - Smart Loading</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Probeer de Smart Loading Demo</h2>
+    <label>Pallet breedte (cm): <input type="number" id="palletWidth" value="100"></label><br>
+    <label>Pallet lengte (cm): <input type="number" id="palletLength" value="120"></label><br>
+    <label>Aantal pallets: <input type="number" id="palletCount" value="10"></label><br>
+    <button onclick="calculateContainer()">Bereken Container</button>
+    <h3>Resultaat:</h3>
+    <p id="result"></p>
+    <canvas id="visualization" width="400" height="200"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>

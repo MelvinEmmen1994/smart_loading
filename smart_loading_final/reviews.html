@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klantenreviews</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Klantenreviews</h2>
+    <div id="reviews"></div>
+    
+    <h3>Laat een review achter</h3>
+    <input type="text" id="name" placeholder="Uw naam"><br>
+    <select id="rating">
+        <option value="5">★★★★★ (5 sterren)</option>
+        <option value="4">★★★★☆ (4 sterren)</option>
+        <option value="3">★★★☆☆ (3 sterren)</option>
+        <option value="2">★★☆☆☆ (2 sterren)</option>
+        <option value="1">★☆☆☆☆ (1 ster)</option>
+    </select><br>
+    <textarea id="comment" placeholder="Uw opmerking"></textarea><br>
+    <button onclick="addReview()">Review toevoegen</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

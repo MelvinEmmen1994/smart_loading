@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+h2, h3 { color: #333; }
+#reviews { margin-bottom: 20px; }
+.review { border: 1px solid #ddd; padding: 10px; margin-bottom: 10px; }

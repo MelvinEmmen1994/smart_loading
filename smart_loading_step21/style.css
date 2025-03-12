@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; padding: 20px; }
+input { width: 80px; padding: 5px; margin: 5px; }
+button { padding: 5px; margin-top: 10px; }
+canvas { border: 1px solid #ddd; margin-top: 10px; }

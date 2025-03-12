@@ -1,0 +1,16 @@
+name: smart_loading_app
+description: Een app voor containerberekening.
+version: 1.0.0
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^6.1.1
+  excel: ^2.0.4
+  http: ^0.13.5
+  shared_preferences: ^2.2.1
+
+flutter:
+  uses-material-design: true
